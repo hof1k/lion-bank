@@ -1,0 +1,13 @@
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+
+}
+
+.main-page-wrapper {
+    background: url(./images/bg/lion-header.jpg) center top no-repeat, url(./images/bg/bottom-pic.png) right bottom 307px no-repeat;
+}
