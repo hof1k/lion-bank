@@ -1,0 +1,52 @@
+.btn {
+    display: inline-block;
+    background: #dfb56d;
+    border-radius: 5px;
+    padding: 17px 38px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn:hover {
+background: #d3a556;
+box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15);
+}
+
+
+.btn--color-black {
+    background: black;
+
+}
+
+.btn--color-black:hover {
+    background: #dfb56d;
+
+}
+
+
+
+.btn--color-grey {
+    background: #8d8d8d;
+}
+
+.btn--color-grey:hover {
+    background: #202123;
+}
+
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.form__btn {
+    margin-right: 20px;
+}
+
+.form__btn:last-child {
+    margin-right: 0;
+}

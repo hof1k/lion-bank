@@ -1,0 +1,21 @@
+.separator {
+    background: #e5c288 url(/images/decor/phone-n-hand.png) right 20% bottom 108% no-repeat;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #202123;
+    
+}
+
+
+.separator__content {
+    width: 40%;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.1;
+    
+}

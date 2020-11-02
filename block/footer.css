@@ -1,0 +1,45 @@
+
+.footer {
+    margin-top: 12px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-col--align--right {
+    justify-content: flex-end;
+}
+
+.footer-container {
+    margin-top: auto;
+}
+
+.footer-container__content {
+    border-top: 1px solid #353538;
+}
+
+
+.footer-container__section {
+    height: 140px;
+    margin-top: 12px;
+}
+
+.inner-footer__container {
+    padding: 45px 0;
+}
+
+
+.inner-footer {
+    margin-top: auto;
+}
+
+.reviews-footer {
+    height: 110px;
+}

@@ -1,0 +1,56 @@
+.pager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pager__display {
+    margin-right: 26px;
+}
+
+.pager__list {
+    display: flex;
+    align-items: center;
+}
+
+.pager__link:hover {
+    background: #353538;
+}
+
+.pager__item {
+    text-align: center;
+}
+
+
+
+.pager__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.page--theme--light {
+    color: #202123;
+}
+
+
+.page--theme--light .pager__item--active .pager__link{
+    color: #fff;
+    background: #353538;
+}
+
+.page--theme--light .pager__link:hover{
+    color: #fff;
+    background: #353538;
+}
+
+
+.reviews-pager {
+    margin-bottom: 70px;
+}

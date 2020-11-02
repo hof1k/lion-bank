@@ -1,0 +1,54 @@
+.socials__link {
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    display: block;
+    background: center center no-repeat;
+}
+
+.socials {
+    display: flex;
+    margin-right: 74px;
+}
+
+.socials__link {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__item--icon-telegram .socials__link {
+    background-image: url(/images/icons/socials/telegram.png);
+}
+
+.socials__item--icon-telegram .socials__link:hover {
+    background-image: url(/images/icons/socials/telegram-hover.png);
+}
+
+.socials__item--icon-vk .socials__link {
+    background-image: url(/images/icons/socials/vk.png);
+}
+
+.socials__item--icon-vk .socials__link:hover {
+    background-image: url(/images/icons/socials/vk-hover.png);
+}
+
+.socials__item--icon-fb .socials__link {
+    background-image: url(/images/icons/socials/facebook.png);
+}
+
+.socials__item--icon-fb .socials__link:hover {
+    background-image: url(/images/icons/socials/facebook-hover.png);
+}
+
+.socials__item--icon-insta .socials__link {
+    background-image: url(/images/icons/socials/instagram.png);
+}
+
+.socials__item--icon-insta .socials__link:hover {
+    background-image: url(/images/icons/socials/instagram-hover.png);
+}
