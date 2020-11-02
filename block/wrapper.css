@@ -9,5 +9,5 @@
 }
 
 .main-page-wrapper {
-    background: url(./images/bg/lion-header.jpg) center top no-repeat, url(./images/bg/bottom-pic.png) right bottom 307px no-repeat;
+    background: url(./../images/bg/lion-header.jpg) center top no-repeat, url(./../images/bg/bottom-pic.png) right bottom 307px no-repeat;
 }
