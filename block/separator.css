@@ -1,5 +1,5 @@
 .separator {
-    background: #e5c288 url(./../images/decor/phone-n-hand.png) right 20% bottom 108% no-repeat;
+    background: #e5c288 url('/images/decor/phone-n-hand.png') right 20% bottom 108% no-repeat;
     min-height: 360px;
     display: flex;
     flex-direction: column;
